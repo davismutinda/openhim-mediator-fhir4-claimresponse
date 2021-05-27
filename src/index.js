@@ -27,7 +27,6 @@ router.get('/',(ctx, next) => {
       method: 'POST',
       json:data
     }, function(error, response, body){
-      console.log(body);
       return body
     });
 }
